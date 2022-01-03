@@ -8,18 +8,21 @@ h1{
 #header-color{ 
     color: #db5926;
 }
+#header2-color{ 
+    color: #ce1888;
+}
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
-    padding-left: 35px;
-    margin-left: 60px;
+    margin-left: 70px;
+    padding-left: 30px;
 }
 .half-width img{
-    width: 70%;
-    margin-left: 70px;
-    margin-top: 40px;
+    width: 80%;
+    padding-top: 20px;
 }
 .link-button{
     text-decoration: none;
@@ -29,7 +32,20 @@ section{
     padding: 5px 40px;
     border-radius: 5%;
 }
+.resume-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-image:linear-gradient(#da5eaa, #ce1888) ;
+    padding: 5px 40px;
+    border-radius: 5%;
+}
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
